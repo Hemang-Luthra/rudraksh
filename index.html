@@ -1,121 +1,65 @@
-<html>
-    <head>
-        <title>Just Hemang</title>
-        <link rel="icon" type="image/x-icon" href="logo.png">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Rudraksh Dhingra — <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a></title>
+<link rel="stylesheet" href="css/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">RD FILMS</a>
+    <nav class="nav" id="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="my-clicks.html">My Clicks</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="controls">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+<div class="hello">
+  <img src="Screenshot 2025-11-11 162604.png">
+</div>
+<main>
+  <section class="about container">
+    <div class="about-grid">
+      <div class="about-image">
+  <img src="rd.jpg" alt="About Me Photo">
+</div>
 
-        <style>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hello, I'm <strong>Rudraksh</strong>, a passionate photographer and filmmaker who believes in the power of transforming ideas into impactful visual experiences. Always in the process of learning something new, creating something new, and adding value wherever I can, I mix creativity, emotion, and storytelling into visuals that capture a moment yet evoke feelings which time cannot take away. Most of my techniques in composition, color tone, editing, and visual storytelling have been self-taught through hands-on experimentation, curiosity, and years of practice. Each project I take on is an opportunity to experiment with perspective, light, and emotion, aiming to create visuals that resonate beyond the screen.</p>
+      </div>
+    </div>
+  </section>
 
-            body{
-                background-color: #333333;
-            }
+  <section id="films">
+     <h2>Films</h2>
+     <div class="films-grid">
+       <div class="film-item"><img src="images/film1.jpg" alt="Film 1"><p>The Loop</p></div>
+       <div class="film-item"><img src="unnamed.jpg" alt="Film 2"><p>Nami (Coming Soon)</p></div>
+     </div>
+  </section>
+    
 
-            .title{
-                text-align: center;
-                font-family: Georgia;
-                color: beige;
-                background-color: #333333;  
-                padding-right:92.5px;
-            }
+</main>
 
-            li a:hover {
-                background-color: #111111;
-                border-radius: 25px;
-            }
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 Rudraksh Dhingra | <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a></p>
+    <p>Coded by <strong>Hemang Luthra</strong> <br>Designed by <strong>Shaurya Manchanda</strong></p>
+    <div class="socials">
+      <a href="#" target="_blank" aria-label="Instagram" class="social-icon">📷</a>
+      <a href="#" target="_blank" aria-label="YouTube" class="social-icon">▶️</a>
+    </div>
+  </div>
+</footer>
 
-            li a{
-                display: inline-flex;
-                color: white;
-                text-align: center;
-                padding: 16px;
-                text-decoration: none;
-                font-family: georgia;
-            }
-
-            li{
-                float:right;   
-            }
-
-            ul{
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: #333333;
-            }
-
-            ul.pages li {
-                padding: 20px;
-                font-size:25px;
-
-            }
-
-            a.ttt{
-                color: beige;
-                text-decoration: none;
-                text-align: center;
-                padding-right:9.25px
-            }
-
-            .ala{
-                border-radius: 10px;
-                height: 100px;
-                width: 100px;
-                float: left;
-
-            }
-
-            .haa{
-                padding-left: 92px;
-            }
-
-            .hl{
-                background-color: #111111;
-                border-radius: 10px;
-            }
-
-            .footer {
-                position:fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: #111111;
-                color: beige;
-                text-align: center;
-            }
-
-
-            
-        </style>
-    </head>
-    <body>
-        <a href="index.html"><img class="ala" src="JustHemang Logo.png"></a>
-        <div class="head">
-            <div class="pages">
-                <ul type="none">
-                    <li>
-                        <a href="about.html">About Us</a>
-                    </li>
-
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="blogs.html">Blogs</a>
-                    </li>
-                    <li class="hl">
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="title">
-                <h1 id="tt"><a class="ttt" href="https://www.youtube.com/@JustHemang">Just Hemang</a></h1>
-                <h2 class="haa">Learn About Technology</h2>
-            </div>
-            <hr>
-        </div>
-        <div class="footer">
-            <p>Created with Love ♡ By Hemang Luthra</p>
-        </div>
-        
-    </body>
-</html> 
+<script src="js/main.js"></script>
+</body>
+</html>
